@@ -5,6 +5,30 @@ date: "2/22/2020"
 output: html_document
 ---
 
+Stephanie Gluck Peer Review 
+
+Area of Strength:
+
+1) I think the visualization that Asha is trying to convey are interesting as they pertain to children's adverse childhood experience and special health needs, both very important topics. 
+
+2) I found the use of new line command in the plot 3 title to be well done so the title did not get cut off in the plot.  
+
+3) I thought it was clever that Asha embeded the legend of her plot within the plot manually for Plot 3. 
+
+What I learned from reviewing Asha's project: 
+
+It was interesting to see a large data that is used in the education field as typically in my field, the data is relatively smaller compared to Asha's dataset. I found it fun to look at the differnet variables that the dataset contains and think about the type of questions that can be answered by the dataset. 
+
+Area of Improvement: 
+
+1) For the first bar plot on special health needs and ACE, I wonder if it may be useful to intially just convey what the overall trend is across the entire country rather than facet by State (you'd just take the facet out). So that way readers can get a first initial overall summary of the data that you are working with or intersted in analyzing. If there are particular states you want to highlight such as Oregon or a state with a particularly high or low cases of needs or ACE, then you can also plot those states individually and then present them all together using the pathwork package (that I learned from reviewing Thuy's project!). Or you can probably also try to map a particular state's data onto the national average data. 
+
+2) For the second plot, I think similar to the first plot, it may be useful to readers to convey an overall average across the country and then highlight specific states of interest such as Oregon or perhaps group the states by regions and then have averages across regions faceted as differnt plots. Also, perhaps as this is not my field, for the proportion, I was not sure what the proportion conveyed (e.g., this is the proportion of children who had ACE and sp health need relative to ?) but I think that could be easily clarified with a plot title or subtitle or capiton. 
+
+3) Since you are intersted in chidlren's ACE and Special Health Needs, I wonder if you can also examine using the full dataset some correlation or relationship for the children who do have special health needs or for children who experience ACE (whether is one or multiple) and plot any of those results. This may help the reader understand the data even more or show the impact that that ACE or special health needs can have on children. 
+
+
+
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
